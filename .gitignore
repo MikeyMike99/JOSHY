@@ -1,0 +1,36 @@
+# JOSHY Public Release Repository .gitignore
+# CRITICAL SECURITY DIRECTIVE: Source files must NEVER be tracked or released here.
+
+# Proprietary Python Source Code & Scripts
+*.py
+*.bat
+*.iss
+*.ps1
+*.sh
+
+# Internal Project Directories
+archive/
+bin_sp/
+demos/
+legacy/
+docs/
+accessible_output2/
+
+# Metadata, Licensing & Local Databases
+*.json
+*.dat
+*.cache
+raugus.json
+credentials.json
+.spotify_token_cache
+.demo_eval.dat
+
+# Virtual Environments & Build Outputs
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+__pycache__/
+dist/
+JOSHY.installer-build/
+*.log
